@@ -12,7 +12,8 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
+/*preferencia de tema do user no pc por causa do prefers-color-scheme*/
+@media (prefers-color-scheme: dark) { 
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
