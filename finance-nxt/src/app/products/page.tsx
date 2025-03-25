@@ -1,4 +1,4 @@
-export default function cadprodutos() {
+export default function Products() {
   return (
     <div>
       <p>Produto 1</p>
