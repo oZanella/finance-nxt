@@ -2,18 +2,18 @@ import { notFound } from "next/navigation"
 
 interface Infoparams {
   params: {
-    productId: string,
+    productId: string
   }
 }
 
 export default function productId({ params }: Infoparams) {
-  if (parseInt(params.productId) > 1000) {
+  if (parseInt(params.productId) > 100) {
     notFound()
   }
 
   return (
-    <div>
+    <>
       <p>Informação do produto {params.productId}</p>
-    </div>
+    </>
   )
 }
